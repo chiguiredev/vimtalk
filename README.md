@@ -1,7 +1,13 @@
 1. Como salir de vim.
 2. Como moverse en vim.
+
+
   Extrutura de comandos en vim
+
+
   [numero] [comando] [movimiento]
+
+
 3. Como abrir y guardar un archivo en vim.
 4. Modos de vim como funcionan y porque son mejores que los editores normales.
 5. No necesitas tanto tiempo en realidad para usarlo como el edior que ya usas.
