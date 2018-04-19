@@ -21,7 +21,7 @@
   Extrutura de comandos en vim
   [numero] [comando] [movimiento]
 
-8. Macros.
+8. Macros y registros.
 9. Autocompletado básico.
 10. Substitución.
 11. Algunos tips para configuracion
@@ -30,6 +30,6 @@
 14. No necesitas tanto tiempo en realidad para usarlo como el edior que ya usas.
 15. Hackea tu teclado.
 16. Deja de usar tu mouse, usa visual mode.
-17. Por algo hay modos de emulacion de vim en todos los grandes editores.
+17. Hay una razón por la que emulacion de vim en todos los grandes editores.
 18. Seguir aprendiendo algo nuevo cada vez que puedas.
 19. Invertir en ti mismo.
