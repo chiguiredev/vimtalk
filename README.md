@@ -22,14 +22,23 @@
   [numero] [comando] [movimiento]
 
 8. Macros y registros.
+
 9. Autocompletado básico.
+
 10. Substitución.
+
 11. Algunos tips para configuracion
-12. ¿Pero puede hacer...? Si, y problablemente lo pueda hacer mejor.
-13. Plugins básicos.
-14. No necesitas tanto tiempo en realidad para usarlo como el edior que ya usas.
-15. Hackea tu teclado.
-16. Deja de usar tu mouse, usa visual mode.
-17. Hay una razón por la que emulacion de vim en todos los grandes editores.
-18. Seguir aprendiendo algo nuevo cada vez que puedas.
-19. Invertir en ti mismo.
+
+12. Plugins básicos.
+
+13. Hackea tu teclado.
+
+14. ¿Pero puede hacer...? Si, y problablemente lo pueda hacer mejor.
+
+15. No necesitas tanto tiempo en realidad para usarlo como el edior que ya usas.
+
+16. Hay una razón por la que emulacion de vim en todos los grandes editores.
+
+17. Seguir aprendiendo algo nuevo cada vez que puedas.
+
+18. Invertir en ti mismo.
