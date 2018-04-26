@@ -1,0 +1,33 @@
+"productivity plugins
+Plug 'bling/vim-airline'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mattn/emmet-vim'
+Plug 'pangloss/vim-javascript'
+Plug 'raimondi/delimitmate'
+Plug 'scrooloose/nerdtree'
+Plug 'sheerun/vim-polyglot'
+Plug 'tmhedberg/matchit'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'w0rp/ale'
+Plug 'xolox/vim-session'
+Plug 'ap/vim-css-color'
+Plug 'FooSoft/vim-argwrap'
+Plug 'junegunn/vim-easy-align'
+Plug 'mxw/vim-jsx'
+Plug 'tacahiroy/ctrlp-funky'
+
+"fancy plugins
+Plug 'airblade/vim-gitgutter'
+
+"color
+Plug 'tpope/vim-vividchalk'
+Plug 'shawncplus/skittles_berry'
+Plug 'dracula/vim'
+Plug 'joshdick/onedark.vim'
+Plug 'nanotech/jellybeans.vim'
+Plug 'tyrannicaltoucan/vim-quantum'
+Plug 'rhysd/vim-color-spring-night'
+Plug 'jdkanani/vim-material-theme'
+Plug 'kristijanhusak/vim-hybrid-material'

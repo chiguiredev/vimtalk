@@ -31,7 +31,7 @@
 
 12. Hackea tu teclado.
 
-13. ¿Pero puede hacer...? Si, y problablemente lo pueda hacer mejor.
+13. ¿Pero puede hacer...?
 
 14. No necesitas tanto tiempo en realidad para usarlo como el edior que ya usas.
 
@@ -40,5 +40,3 @@
 16. Seguir aprendiendo algo nuevo cada vez que puedas.
 
 17. Invertir en ti mismo.
-
-18. Vimtutor y la ayuda de vim es tu amiga.

@@ -1,0 +1,131 @@
+"Hace que vim no se intente comportar como vi.
+set nocompatible
+
+"Guarda metadata sobre los cambios relizados en los archivos
+set undofile
+set undodir=~/.vim/undodir
+
+"Hace que la tecla backspace funcione de manera regular
+set backspace=eol,start,indent
+
+"Previene que vim cree archivos de autoguardado
+set nobackup
+
+"Crea una columna en la fila 81 del archivo
+set colorcolumn=81
+
+"Permite usar el sujetapapeles del sistema operativo
+set clipboard=unnamedplus
+
+"Esto le dice a vim que use el formato del archivo
+filetype plugin on
+filetype indent on
+
+"Le dice a vim que si el archivo cambie el refleje esos cambios
+set autoread
+
+"Para mostrar el comando que estas escribiendo
+set showcmd
+
+syntax enable
+
+"Mejores splits
+set splitbelow
+set splitright
+
+"Mejor wrapping
+set breakindent
+set showbreak=^
+
+"lines number
+set number
+set relativenumber
+
+"Para busquedas
+set incsearch
+set hlsearch
+set incsearch
+set wildmenu
+"ignore stuff in wildmenu
+set wildignore+=**/node_modules**,*.o,*.obj,.git,*.rbc,*.pyc,__pycache__
+
+
+"Mapeos
+"El leader por defecto es horrible
+let mapleader=" "
+nnoremap <leader>h :nohlsearch<CR>
+nnoremap <leader>e :e#<CR>
+nnoremap <leader>r :reg<CR>
+"remove trailing whitespace
+nnoremap <leader>rtw :%s/\s\+$//e<CR>
+nnoremap <leader><left> :vertical resize +10<CR>
+nnoremap <leader><right> :vertical resize -10<CR>
+nnoremap <leader>o :only<CR>
+nnoremap p ]p
+nnoremap P [P
+nnoremap <cr> G
+
+nnoremap <leader>s :wa<CR>
+nnoremap <leader>q :qa<CR>
+
+" create splits easily
+nnoremap <leader>vs :vs<CR>
+nnoremap <leader>sp :sp<CR>
+
+"no more ex mode please
+nnoremap Q <Nop>
+map q: <Nop>
+
+"paragraph jumping
+nnoremap <S-j> }zz
+nnoremap <S-k> {zz
+vnoremap <S-j> }zz
+vnoremap <S-k> {zz
+
+"closing a tab
+nnoremap <C-d> :close<CR>
+
+"move a line with the arrow keys
+nnoremap <down> ddp
+nnoremap <up> ddkP
+
+inoremap <down> <Nop>
+inoremap <left> <Nop>
+inoremap <right> <Nop>
+inoremap <up> <Nop>
+
+vnoremap <down> <Nop>
+vnoremap <left> <Nop>
+vnoremap <right> <Nop>
+vnoremap <up> <Nop>
+
+nmap go o<ESC>k
+nmap gO O<ESC>j
+
+"No me gusta que la cosas no esten centradas
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap } }zz
+nnoremap { {zz
+nnoremap j gjzz
+nnoremap k gkzz
+nnoremap G Gzz
+
+noremap B ^
+noremap E $
+
+" remap of tag jumping beacuse of spanish keyboard
+nnoremap <c-}> <c-]>
+
+"Moverse entre splits
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+nnoremap <C-s> :wa<CR>
+
+"Autocompletado
+inoremap <C-f> <C-x><C-f>
+inoremap <C-l> <C-x><C-l>
+inoremap <C-o> <C-x><C-o>
