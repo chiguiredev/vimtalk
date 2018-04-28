@@ -1,3 +1,13 @@
+
+
+
+
+  # Introducción a vim
+
+
+
+
+
 1. ¿Que es vim?
 
 2. Como salir de vim.
