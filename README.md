@@ -23,18 +23,10 @@
   - Insert
   - Normal
   - Visual
-
   Como mover el cursor
 
   Extrutura de comandos en vim
   [numero] [comando] [movimiento]
-
-7. Macros y registros.
-
-8. Autocompletado básico.
-
-9. Substitución.
-
 10. Algunos tips para configuracion
 
 11. Plugins básicos.
